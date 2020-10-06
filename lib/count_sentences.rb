@@ -28,7 +28,7 @@ class String
 
   def count_sentences
    if self != 0
-    self.split.gsub(/\W/, ' ').count
+    self.split.count
    else
     0
   end
