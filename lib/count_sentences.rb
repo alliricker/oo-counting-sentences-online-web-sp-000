@@ -28,9 +28,9 @@ class String
 
   def count_sentences
    if self != 0
-     puts self.split.count
+    self.split.count
    else
-     puts "0"
+    "0"
   end
 end
 
