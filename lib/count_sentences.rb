@@ -30,7 +30,7 @@ class String
    if self != 0
     self.split.count
    else
-    "0"
+    0
   end
 end
 
