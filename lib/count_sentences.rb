@@ -11,7 +11,7 @@ class String
   end
 
   def question?
-  if self.end_with?("?")
+    if self.end_with?("?")
     true
   else
     false
@@ -27,6 +27,9 @@ class String
   end
 
   def count_sentences
-
+   if self > 0
+     puts self.split.count 
+   else
+     puts "0"
   end
 end
